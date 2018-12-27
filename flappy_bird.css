@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'pixel';
+    src: url('Pixeled.ttf');
+}
+
+/*
+p.pixelfont { 
+    font-family: 'pixel';
+    color: orange;
+    font-size: 10px;
+}
+*/
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: auto; }
+
+P.blockTextOne {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Open Sans";
+}
+
+P.blockTextTwo {
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: "Tahoma";
+    color: grey;
+}
+
+SPAN.spanTextOne {
+    margin-right: 75px;
+    font-size: 10pt;
+}
+
+SPAN.spanTextTwo {
+    margin-left: 75px;
+    font-size: 10pt;
+}
+
+DIV.divOne {
+    text-align: center;
+    margin-top: 375px;
+    font-family: "Open Sans";
+
+}
+
+/*
+DIV.divTwo {
+    position: absolute;
+    top: 425px;
+    left: 50%;
+    margin-left: 30px;    
+    font-family: "Open Sans";
+}
+*/

@@ -1,0 +1,53 @@
+<!--the design is based on https://chromedino.com/ -->
+<html>
+    <head>
+    <link rel = "stylesheet" href = "/static/flappy_bird.css">
+    <link rel = "stylesheet" type = "text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+        <title>
+            Flappy Bird
+        </title>
+
+    </head>
+    <body style="background-color:#f0f0f0;">
+    
+
+    <p class = "blockTextOne"> Press Space (⎵) to start the game and flap the bird's wings. </p>
+
+
+    <div style="position:absolute; top:100px; width: 100%; text-align:center; margin: auto;">
+    <canvas class="displayed" id="myCanvas" width=320 height=480 style="background:url('http://s2js.com/img/etc/flappyback.png');  
+        background-size: 100%; height: 50%"> </canvas>
+        <script src="/static/flappy_bird.js"></script>
+
+    </div>
+
+    <div class = "divOne">
+    <p class = "blockTextTwo">Top 5 of all time:</p>
+    <ul style = "list-style: none; padding-left: 0;">
+        <li>
+            <span id = "name1" class = "spanTextOne">Bird</span>
+            <span id = "score1" class = "spanTextTwo">000</span>
+        </li>
+        <li>
+            <span id = "name2" class = "spanTextOne">Bird</span>
+            <span id = "score2" class = "spanTextTwo">000</span>
+        </li>
+        <li>
+            <span id = "name3" class = "spanTextOne">Bird</span>
+            <span id = "score3" class = "spanTextTwo">000</span>
+        </li>
+        <li>
+            <span id = "name4" class = "spanTextOne">Bird</span>
+            <span id = "score4" class = "spanTextTwo">000</span>
+        </li>
+        <li>
+            <span id = "name5" class = "spanTextOne">Bird</span>
+            <span id = "score5" class = "spanTextTwo">000</span>
+        </li>
+    </ul>
+    </div>
+
+
+
+    </body>
+</html>
